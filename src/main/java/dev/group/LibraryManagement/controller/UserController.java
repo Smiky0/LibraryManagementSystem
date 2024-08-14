@@ -68,7 +68,7 @@ public class UserController {
         }
     }
 //    update user contribution
-    @PutMapping("/contribution/{userName}")
+    @PutMapping("/contribute/{userName}")
     public ResponseEntity<UserEntity> updateContribution(@PathVariable String userName, @RequestBody UserEntity updatedValue){
         try{
             UserEntity userFound = userServices.findByUserName(userName);
