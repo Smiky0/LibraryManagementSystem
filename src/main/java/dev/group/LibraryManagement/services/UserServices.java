@@ -16,7 +16,7 @@ public class UserServices {
         return userRepo.findAll();
     }
     public UserEntity findByUserName(String userName){
-        return userRepo.findByUsername(userName);
+        return userRepo.findByUserName(userName);
     }
     public UserEntity saveUser (UserEntity user){
         return userRepo.save(user);
