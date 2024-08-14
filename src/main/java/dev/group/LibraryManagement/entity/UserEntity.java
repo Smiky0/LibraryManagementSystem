@@ -17,4 +17,5 @@ public class UserEntity {
     private String userName;
     @NonNull
     private String userPass;
+    private String contribution;
 }
